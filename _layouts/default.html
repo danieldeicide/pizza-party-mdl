@@ -14,29 +14,14 @@
     <link href=/favicon.ico rel=icon>
 </head>
 <body>
-  <style>
-  #view-source {
-    position: fixed;
-    display: block;
-    right: 0;
-    bottom: 0;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    z-index: 900;
-  }
-  @media only screen and (min-width: 1200px) {
-    .nav-wrapper {
-      padding: 0em 22em;
-    }
-  }
-
-
-  </style>
 
 
   {% include navbar.html %}
-{{content}}
-
+<div class="container">
+  {{content}}
+  {% include menu.html %}
+</div>
+{% include footer.html %}
 <a href="tel:+0763095010" class="btn-floating btn-large waves-effect waves-light red" id="view-source"><i class="material-icons">call</i></a>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
