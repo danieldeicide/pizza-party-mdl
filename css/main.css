@@ -7,3 +7,8 @@
   margin-bottom: 40px;
   z-index: 900;
 }
+@media only screen and (min-width: 1200px) {
+  .nav-wrapper {
+    padding: 0em 22em;
+  }
+}
