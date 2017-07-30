@@ -1,4 +1,4 @@
-<nav class="deep-orange darken-3" id="transparentNav">
+<nav class="brown" id="transparentNav">
   <div class="nav-wrapper">
     <a href="{{site.baseurl}}/" class="brand-logo">Pizza Party</a>
     <a href="{{site.baseurl}}/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -6,9 +6,21 @@
       <li {% if page.url == '/menu/' %}class="active"{% endif %}><a href="{{site.baseurl}}/menu">Meniu</a></li>
       <li  {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
     </ul>
+
+<!-- sideNav  de adaugat ca sa fie frumos-->
+
     <ul class="side-nav" id="mobile-demo">
+      <li id="sideNavLogo"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/logo.svg" alt="Pizza Party Logo"></a></li>
       <li {% if page.url == '/menu/' %}class="active"{% endif %}><a href="{{site.baseurl}}/menu">Meniu</a></li>
       <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
+      <li><a href="{{site.baseurl}}/#hours">Program</a></li>
+
+
+
+
+      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contact</a></li>
+      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">0753 908 595</a></li>
+      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">0724 181 546</a></li>
     </ul>
   </div>
 </nav>

@@ -43,6 +43,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
       height: "your height here";
     }
 
+sideNavLogo {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  list-style-type: none;
+}
+
 #transparentNav {
   background-color: rgba(0,0,0,0);
 }
