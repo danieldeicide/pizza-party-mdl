@@ -52,3 +52,16 @@ sideNavLogo {
 #transparentNav {
   background-color: rgba(0,0,0,0);
 }
+h3 {
+  font-size: 24px
+}
+
+.adv {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*background-color: #ff6659;*/
+}
+
+.adv p {
+  font-size: 15px;
+}

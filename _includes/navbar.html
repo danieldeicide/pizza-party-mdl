@@ -1,7 +1,7 @@
-<nav class="brown" id="transparentNav">
+<nav class="red darken-2" id="transparentNav">
   <div class="nav-wrapper">
     <a href="{{site.baseurl}}/" class="brand-logo">Pizza Party</a>
-    <a href="{{site.baseurl}}/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a href="{{site.baseurl}}/" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       <li {% if page.url == '/menu/' %}class="active"{% endif %}><a href="{{site.baseurl}}/menu">Meniu</a></li>
       <li  {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
@@ -9,7 +9,7 @@
 
 <!-- sideNav  de adaugat ca sa fie frumos-->
 
-    <ul class="side-nav" id="mobile-demo">
+    <ul class="side-nav" id="mobile">
       <li id="sideNavLogo"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/logo.svg" alt="Pizza Party Logo"></a></li>
       <li {% if page.url == '/menu/' %}class="active"{% endif %}><a href="{{site.baseurl}}/menu">Meniu</a></li>
       <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
