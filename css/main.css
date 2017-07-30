@@ -12,3 +12,7 @@
     padding: 0em 22em;
   }
 }
+#map {
+        height: 25rem;
+        width: 100%;
+       }

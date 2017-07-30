@@ -1,0 +1,17 @@
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var pizzaParty = {lat: 46.069261, lng: 23.560928};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: pizzaParty
+        });
+        var marker = new google.maps.Marker({
+          position: pizzaParty,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCknENERRfbj5CiNMtN2ivbld-8Jqn5jXc&callback=initMap">
+    </script>
