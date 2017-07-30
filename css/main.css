@@ -1,3 +1,6 @@
+body {
+  background-color: #f2e9dd;
+}
 #view-source {
   position: fixed;
   display: block;
@@ -17,7 +20,16 @@
         width: 100%;
        }
 
+.card {
+  display: block;
+}
+.card .card-title {
+  text-shadow: 0px 3px 30px rgba(0, 0, 0, 1);
+}
 
-#love  {
-  color: red;
+.card .card-content {
+  padding: 12px 12px;
+}
+.card .card-image .card-title {
+  padding:  12px 12px;
 }
