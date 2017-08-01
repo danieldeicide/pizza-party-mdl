@@ -11,21 +11,9 @@ layout: compress
     <meta content="width=device-width,initial-scale=1" name=viewport>
     <meta content="todo" name=description>
     <title>{{page.title}}</title>
-    <script type="text/javascript">
-            var cb = function() {
-          var l = document.createElement('link'); l.rel = 'stylesheet';
-          l.href = 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css';
-          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb);
-        else window.addEventListener('load', cb);
-
-    </script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
     <link href=/apple-touch-icon.png rel=apple-touch-icon>
     <link href=/favicon.ico rel=icon>
