@@ -114,7 +114,3 @@ nav .brand-logo {
   border-left: 1px solid rgba(160,160,160,0.2);
   border-right: 1px solid rgba(160,160,160,0.2);
 }
-
-.carousel {
-  max-height: 400px !important;
-}
