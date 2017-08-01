@@ -2,3 +2,13 @@ title: {{page.title}}
 exclude: ['README.md']
 permalink: pretty
 markdown: kramdown
+
+compress_html:
+  clippings: [all]
+  comments: [all]
+  endings: [all]
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: [all]
