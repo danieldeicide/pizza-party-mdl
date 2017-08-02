@@ -16,3 +16,4 @@ compress_html:
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
