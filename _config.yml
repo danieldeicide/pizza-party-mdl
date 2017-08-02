@@ -2,6 +2,7 @@ title: {{page.title}}
 exclude: ['README.md']
 permalink: pretty
 markdown: kramdown
+baseurl: /pizza-party-mdl
 
 compress_html:
   clippings: [all]
