@@ -17,3 +17,12 @@ compress_html:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# jekyll seo tag
+
+logo: {{site.baseurl}}/assets/company-logo.png
+social:
+  links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
+
+google_site_verification: UA-101920827-4
+lang: {{page.lang}}

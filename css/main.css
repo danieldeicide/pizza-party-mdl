@@ -114,3 +114,7 @@ nav .brand-logo {
   border-left: 1px solid rgba(160,160,160,0.2);
   border-right: 1px solid rgba(160,160,160,0.2);
 }
+
+#gform {
+  padding: 5em 5em;
+}
