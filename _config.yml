@@ -4,7 +4,7 @@ permalink: pretty
 
 markdown: kramdown
 siteurl: https://danieldeicide.github.io
-baseurl: /pizza-party-mdl
+baseurl: /pizza-party-mdl/
 
 
 compress_html:
