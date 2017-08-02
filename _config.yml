@@ -1,12 +1,11 @@
 title: {{page.title}}
 exclude: ['README.md']
 permalink: pretty
+name: Pizza Party
 
 markdown: kramdown
 # siteurl: https://danieldeicide.github.io
 # baseurl: /pizza-party-mdl/
-
-
 # compress_html:
 #   clippings: [all]
 #   comments: [all]
@@ -20,17 +19,16 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
-  # - jekyll-seo-tag
+  - jekyll-seo-tag
 
-# jekyll seo tag
-
-# logo: /assets/company-logo.png
-# social:
-#   links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
-#
-# google_site_verification: UA-101920827-4
-# lang: {{page.lang}}
-# locale: ro_RO
-# description: {{page.description}}
-# url: {{page.url}}
-# image: /assets/company-logo.png
+jekyll seo tag:
+  logo: /assets/company-logo.png
+  social:
+    links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
+  webmaster_verifications:
+    google: UA-101920827-4
+  lang: {{page.lang}}
+  locale: ro_RO
+  description: {{page.description}}
+  url: {{page.url}}
+  image: {{page.imageseo}}
