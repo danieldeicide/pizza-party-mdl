@@ -33,4 +33,4 @@ lang: {{page.lang}}
 locale: ro_RO
 description: {{page.description}}
 url: {{page.url}}
-image: {{site.baseurl}}/assets/company-logo.png
+image: /assets/company-logo.png
