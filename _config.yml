@@ -3,34 +3,34 @@ exclude: ['README.md']
 permalink: pretty
 
 markdown: kramdown
-siteurl: https://danieldeicide.github.io
-baseurl: /pizza-party-mdl/
+# siteurl: https://danieldeicide.github.io
+# baseurl: /pizza-party-mdl/
 
 
-compress_html:
-  clippings: [all]
-  comments: [all]
-  endings: [all]
-  ignore:
-    envs: []
-  blanklines: false
-  profile: false
-  startings: [all]
+# compress_html:
+#   clippings: [all]
+#   comments: [all]
+#   endings: [all]
+#   ignore:
+#     envs: []
+#   blanklines: false
+#   profile: false
+#   startings: [all]
 
 
 gems:
   - jekyll-sitemap
-  - jekyll-seo-tag
+  # - jekyll-seo-tag
 
 # jekyll seo tag
 
-logo: /assets/company-logo.png
-social:
-  links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
-
-google_site_verification: UA-101920827-4
-lang: {{page.lang}}
-locale: ro_RO
-description: {{page.description}}
-url: {{page.url}}
-image: /assets/company-logo.png
+# logo: /assets/company-logo.png
+# social:
+#   links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
+#
+# google_site_verification: UA-101920827-4
+# lang: {{page.lang}}
+# locale: ro_RO
+# description: {{page.description}}
+# url: {{page.url}}
+# image: /assets/company-logo.png
