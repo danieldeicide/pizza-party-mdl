@@ -118,3 +118,13 @@ nav .brand-logo {
 #gform {
   padding: 5em 5em;
 }
+
+
+#testimonial {
+  min-height: 300px;
+  width: 100%;
+}
+
+#footer {
+  margin-top: 0;
+}

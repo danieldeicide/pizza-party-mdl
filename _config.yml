@@ -19,16 +19,16 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
-  - jekyll-seo-tag
+  # - jekyll-seo-tag
 
-jekyll seo tag:
-  logo: /assets/company-logo.png
-  social:
-    links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
-  webmaster_verifications:
-    google: UA-101920827-4
-  lang: {{page.lang}}
-  locale: ro_RO
-  description: {{page.description}}
-  url: {{page.url}}
-  image: {{page.imageseo}}
+# jekyll seo tag:
+#   logo: /assets/company-logo.png
+#   social:
+#     links: https://www.facebook.com/Pizza-Party-Alba-Iulia-140274812741591/
+#   webmaster_verifications:
+#     google: UA-101920827-4
+#   lang: {{page.lang}}
+#   locale: ro_RO
+#   description: {{page.description}}
+#   url: {{page.url}}
+#   image: {{page.imageseo}}

@@ -1,0 +1,17 @@
+{
+  "name": "Pizza Party | Alba Iulia",
+  "short_name": "Pizza Party",
+  "description": "Order the best pizza in town!",
+  "lang": "ro-RO",
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#D32F2F",
+  "icons": [
+    {
+      "src": "assets/icons/apple-touch-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ]
+}

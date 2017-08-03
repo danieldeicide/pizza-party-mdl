@@ -1,53 +1,43 @@
----
-<!-- layout: compress -->
----
-
 <!DOCTYPE html>
 <html lang=ro>
-
 <head>
-    <meta charset=utf-8>
-    <meta content="IE=edge" http-equiv=X-UA-Compatible>
-    <meta content="width=device-width,initial-scale=1" name=viewport>
-    <title>{{page.title}}</title>
+  <meta charset=utf-8>
+  <meta content="IE=edge" http-equiv=X-UA-Compatible>
+  <meta content="width=device-width,initial-scale=1" name=viewport>
+  <title>{{page.title}}</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-    {% include icons.html %}
-    {% seo %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  {% include icons.html %}
+  {% include seo.html %}
+  {% include manifest.html %}
 </head>
-
 <body>
-    <!-- {% include language.html %} -->
-    {% include navbar.html %}
+  <!-- {% include language.html %} -->
+  {% include navbar.html %}
 
   {{content}}
 
   {% include footer.html %}
 
-    <a href="tel:0763095010" class="btn-floating btn-large waves-effect waves-light red" id="view-source"><i class="material-icons">call</i></a>
+  <a href="tel:0763095010" class="btn-floating btn-large waves-effect waves-light red" id="view-source"><i class="material-icons">call</i></a>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-    <script src="{{site.baseurl}}/js/jquery.matchHeight.js" type="text/javascript"></script>
-    <script src="{{site.baseurl}}/js/main.js"></script>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-101920827-4', 'auto');
-        ga('send', 'pageview');
-    </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script src="{{site.baseurl}}/js/jquery.matchHeight.js" type="text/javascript"></script>
+  <script src="{{site.baseurl}}/js/main.js"></script>
+  <script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js','ga');ga('create','UA-101920827-4', 'auto');ga('send', 'pageview');</script>
 </body>
-
 </html>
