@@ -7,10 +7,11 @@
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#D32F2F",
+  "background_color": "#9a0007",
   "icons": [
     {
-      "src": "assets/icons/apple-touch-icon-120x120.png",
-      "sizes": "120x120",
+      "src": "assets/icons/apple-touch-icon-144x144.png",
+      "sizes": "144x144",
       "type": "image/png"
     }
   ]
