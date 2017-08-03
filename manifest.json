@@ -3,9 +3,9 @@
   "short_name": "Pizza Party",
   "description": "Order the best pizza in town!",
   "lang": "ro-RO",
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "https://danieldeicide.github.io/pizza-party-mdl/",
   "display": "standalone",
-  "orientation": "landscape",
+  "orientation": "portrait",
   "theme_color": "#D32F2F",
   "icons": [
     {
