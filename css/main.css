@@ -46,7 +46,6 @@ sideNavLogo {
     background-color: rgba(0, 0, 0, 0);
 }
 h3 {
-    font-size: 24px;
 }
 .adv {
     padding-top: 50px;
@@ -92,7 +91,7 @@ h3 {
 
 
 #testimonial {
-  min-height: 300px;
+  min-height: 500px;
   width: 100%;
   /*background-color: #3A3E64;*/
 }
@@ -112,4 +111,13 @@ h3 {
 h1  {
   font-size: 3.5rem;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+h2  {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
