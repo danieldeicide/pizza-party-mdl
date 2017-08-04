@@ -129,3 +129,13 @@ nav .brand-logo {
 #footer {
   margin-top: 0;
 }
+
+
+.hero {
+  background-image: url(../assets/Untitled-2-compressor.png);
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+
+
+}
