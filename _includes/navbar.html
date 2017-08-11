@@ -7,16 +7,35 @@
       <li  {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
     </ul>
 
-<!-- sideNav  de adaugat ca sa fie frumos-->
+    <!-- sideNav  de adaugat ca sa fie frumos-->
 
     <ul class="side-nav" id="mobile">
-      <li id="sideNavLogo"><a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/logo.svg" alt="Pizza Party Logo"></a></li>
-      <li {% if page.url == '/menu/' %}class="active"{% endif %}><a href="{{site.baseurl}}/menu">Meniu</a></li>
-      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
-      <li><a href="{{site.baseurl}}/#hours">Program</a></li>
-      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contact</a></li>
-      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">0753 908 595</a></li>
-      <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">0724 181 546</a></li>
+      <li id="sideNavLogo">
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/logo.svg" alt="Pizza Party Logo"></a></li>
+      <li {% if page.url == '/menu/' %}class="active"{% endif %}>
+        <a href="{{site.baseurl}}/menu">Meniu</a></li>
+      <li {% if page.url == '/contact/' %}class="active"{% endif %}>
+        <a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
+      <li>
+        <a href="{{site.baseurl}}/#hours">Program</a>
+      </li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li {% if page.url == '/contact/' %}class="active"{% endif %}>
+            <a class="collapsible-header">Call</a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="tel:0763095010">0763 095 010</a>
+                </li>
+                <li>
+                  <a href="tel:0763095010">0763 095 65446</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
     </ul>
   </div>
 </nav>

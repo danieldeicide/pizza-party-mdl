@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-  $('.parallax').parallax();
+   $('.collapsible').collapsible();
 })
 getPanelWidth = function() {
     var screenWidth = $(window).width();
