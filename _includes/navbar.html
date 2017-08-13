@@ -16,12 +16,22 @@
         {% endif %}
       </li>
     </ul>
-    <!-- <span class="language"><a href="{{site.baseurl}}/en"><img src="{{site.baseurl}}/assets/gb.svg" alt="Language: English"></a></span> -->
-
-    <a href="{{site.baseurl}}/" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li {% if page.url == '/menu/' %}class="active"{% endif %}><a href="{{site.baseurl}}/menu">Meniu</a></li>
-      <li  {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contactează-ne</a></li>
+      <li {% if page.url == '/menu/' %}class="active"{% endif %}>
+        {% if page.url == '/en/' %}
+        <a href="{{site.baseurl}}/en/menu">Menu</a>
+        {% else %}
+        <a href="{{site.baseurl}}/menu">Meniu</a>
+        {% endif %}
+      </li>
+      <li {% if page.url == '/contact/' %}class="active"{% endif %}>
+        {% if page.url == '/en/' %}
+        <a href="{{site.baseurl}}/en/contact">Contact us</a>
+        {% else %}
+        <a href="{{site.baseurl}}/contact">Contactează-ne</a>
+        {% endif %}
+      </li>
     </ul>
 
     <!-- sideNav  de adaugat ca sa fie frumos-->
